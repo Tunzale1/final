@@ -14,6 +14,10 @@ function Navbar() {
                     <Link to = "/" className='Link'>Home</Link>
                 </div>
                 
+                <div className='slide'>
+
+                    <Link to = "/slide"> Slide</Link>
+                </div>
 
 
             </div>

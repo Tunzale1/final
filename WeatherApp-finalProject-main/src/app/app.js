@@ -4,7 +4,7 @@ import Footer from '../components/Footer/footer';
 import Navbar from '../components/Navbar/Navbar';
 import Mainpage from '../pages/mainPage/mainPage';
 import "./app.css";
-
+import Appp from '../slider/Appp';
 function App() {
     return ( 
         
@@ -21,6 +21,10 @@ function App() {
                     <Routes>
                         <Route path ="/" element = {<Mainpage />}></Route>
                     </Routes>
+                    <Routes>
+                        <Route path ="/slide" element = {<Appp/>}></Route>
+                    </Routes>
+
 
                     <div className='FooterContainer'>
                         <Footer />
