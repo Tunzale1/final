@@ -1,0 +1,25 @@
+.mainPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.colorContainer{
+    background: linear-gradient(90deg, rgb(207, 172, 105) 18%, rgb(72, 131, 241) 70%); 
+}
+
+.currentAndDaily{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: url("https://t3.ftcdn.net/jpg/02/11/52/42/360_F_211524227_Ett8aboQvVnROAFtqu3S1pW99Y3Th9vm.jpg") ;
+    background-repeat: no-repeat;
+    box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+}
+
