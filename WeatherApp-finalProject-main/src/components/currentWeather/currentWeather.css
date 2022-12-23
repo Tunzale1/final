@@ -1,7 +1,12 @@
 .currentWeatherCont{
-    width: 100%;
+    width: 60%;
     padding: 30px;
     color: white;
+    transition: 1s;
+    margin-left: 10px;
+}
+.currentWeatherCont:hover{
+margin-top: 20px;
 }
 
 .weathericon{
@@ -11,11 +16,13 @@
 }
 
 .iconAndUnitChangeCont{
+    transition: 1s;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .buttonContainer{
     max-width: 93px;
     width: 50%;

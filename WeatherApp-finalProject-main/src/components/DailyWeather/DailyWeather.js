@@ -8,11 +8,11 @@ function DailyWeather() {
     const data = useSelector(state=>state.search)
 
 
-    const month = ["", "January","February","March","April","May","June","July","August","September","October","November","December"];
+    const month = ["", "Yanvar","Fevral","Mart","Aprel","May","Iyun","Iyul","Avqust","Sentyabr","Oktyabr","Noyabr","Dekabr"];
     return (
     <div className='DailyWeather'>
 
-        <h2 className='dailyHeader'>5 gün / 3 saatdan bir proqnoz</h2>
+        <h2 className='dailyHeader'>Həftəiçi hava pronozu</h2>
         <div className='CommonContainer'>
         <div className='dailycontainer'>
         {

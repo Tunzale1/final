@@ -1,28 +1,31 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Navbar.css";
-import LogoSun from "../../../src/images/logoSun.png";
+
 
 function Navbar() {
     return ( 
         <div className='Navbarcont'>
 
-            <div className='navLogoLinkContainer'>
-                <img src= {LogoSun} alt = "logo" className = "logoPicture" draggable="false" />
+<i className="fa-solid fa-cloud"></i>
+<i className="fa-regular fa-snowflake"></i>
+<i className="fa-solid fa-cloud-rain"></i>
+<i className="fa-solid fa-sun"></i>
+<i className="fa-solid fa-bolt"></i>
 
                 <div className='LinkContainer'>
-                    <Link to = "/" className='Link'>Home</Link>
+                    <Link to = "/" className='Link'>Hava proqnozu</Link>
                 </div>
                 
-                <div className='slide'>
+                <div className='slides'>
 
-                    <Link to = "/slide"> Slide</Link>
+                    <Link to = "/slide">Home</Link>
                 </div>
 
 
             </div>
 
-        </div>
+     
      );
 }
 

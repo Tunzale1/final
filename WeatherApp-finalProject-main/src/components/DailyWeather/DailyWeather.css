@@ -39,9 +39,10 @@
     justify-content: space-between;
 }
 .dailyForecast:hover{
+    margin-bottom: 10px;
     width: 150px;
     height: 230px;
-    border: 1px solid blue;
+    border: 2px solid rgb(255, 255, 255);
 
 }
 
