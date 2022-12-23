@@ -6,7 +6,7 @@
     margin-left: 10px;
 }
 .currentWeatherCont:hover{
-margin-top: 20px;
+margin-top: 50px;
 }
 
 .weathericon{
@@ -26,7 +26,6 @@ margin-top: 20px;
 .buttonContainer{
     max-width: 93px;
     width: 50%;
-    /* height: 40px; */
     position: relative;
 }
 

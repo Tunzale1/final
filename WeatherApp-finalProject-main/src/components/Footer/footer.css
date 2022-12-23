@@ -14,19 +14,25 @@ background-color: rgb(49, 89, 177);;
     flex-direction: column;
     justify-content: space-between;
     width: 210px;
-    height: 80px;
+    height: 110px;
     margin: auto;
     margin-bottom: 20px;
 
 }
 
 .email{
+    border-radius: 10px;
+    width: 220px;
+    display: block;
+    padding: 5px 5px 5px 5px;
+    background-color: aliceblue;
     text-decoration: none;
-    color: #FBCB0A;
+    color: #060606;
+    font-weight: 500;
 }
 
 .contactUs{
-    color: #37E2D5;
+    color: #fbfbfb;
     margin-bottom: 10px;
 }
 

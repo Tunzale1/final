@@ -5,11 +5,11 @@ function Footer() {
             <div className="footerCont">
                  
                 <div className="contactUsContainer">
-                    <h3 className="contactUs">Contact Us</h3>
-                    <a href="mailto: hasanrza.888@gmail.com" className="email">hasanrza.888@gmail.com</a>
-                    <a href="tel: +994-077-577-31-33" className="email">+994-077-577-31-33</a>
+                    <h3 className="contactUs">Əlaqə saxlayın</h3>
+                    <a href="mailto: tunzaleimanova03@mail.ru" className="email">tunzaleimanova03@mail.ru</a>
+                    <a href="tel: +994-055-55-55" className="email">+994-055-555-55-55</a>
                 </div>
-                <div className="copyright">© 2022 SunWeather. All Rights Reserved.</div>
+                <div className="copyright">© 2022 SunWeather. Bütün hüquqlar qorunur.</div>
             </div>
         </div> 
     );

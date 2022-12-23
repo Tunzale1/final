@@ -1,11 +1,13 @@
 .locAndSunCont{
     padding: 10px;
     color: white;
-
+    width:auto;
 }
 
 .locContainer{
-    width: 90%;
+    width:auto;
+    height: 50px;
+    display: block;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -13,49 +15,41 @@
 }
 
 .mapAndCountryContainer{
-    background-color: rgba(97, 157, 214, 0.63);
+    background-color: rgba(89, 175, 255, 0.63);
     padding-right: 5px;
-    width: 30%;
-    max-width: 250px;
+    margin-left: 8px;
+    margin-right: 10px;
+   width: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-
-.mapImage{
-    width: 35px;
-    height: 35px;
+.fa-compass{
+    color: rgb(0, 0, 130);
+    display: block;
+    margin-left: 10px;
+    
 }
 
 .locationName{
-    margin-left: 10%;
+    margin-left: 10px;
+font-size: 30px;
 }
 
-.searchbutton{
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-}
 
-.inputContainer{
-    width: 60%;
-    max-width: 250px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
+
+
 
 .input{
-    width: 200px;
+    width: 250px;
     height: 35px;
     background-color: #ffffff;
     border-radius: 10px;
     padding: 0 5px;
-    border: none;
+    border: 1px solid rgb(0, 0, 130);
     outline: none;
-    color: #590696;
+    color: rgb(0, 0, 130);
     font-size: 18px;
 }
 
@@ -63,43 +57,35 @@
     display: none;
 }
 
-.SubmitButton{
-    outline: none;
-    border: none;
-    background: transparent;
-    margin-left: 5%;
-   
-}
-.SubmitButton:hover{
-width: 70px;
-
-}
 
 .SearchForm{
-    width: 250px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+width: 300px;
 }
 
 .sunRiseSunSetContainer{
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-top: 80px;
-    max-width: 300px;
+    max-width: 400px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    transition: 1s;
    
+}
+.sunRiseSunSetContainer:hover{
+    margin-top: 120px;
 }
 
 .SunriseText, .sunsetText{
+    border: 2px solid rgba(30, 135, 255, 0.542);
     background-color: #ffffff5e;
     text-align: center;
+    font-weight: 700;
     font-size: 25px;
-    color: black;
+    padding: 5px 5px 5px 5px;
+    color: rgb(0, 0, 130);
 }
 
 .sunriseContainer, .sunsetContainer{
@@ -107,7 +93,7 @@ width: 70px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 110px;
+    height: 120px;
 }
 
 .sunsetContainer{
@@ -115,7 +101,8 @@ width: 70px;
 }
 
 .clock{
-   /* border: 1px solid blue; */
+    border: 2px solid white;
+    color: rgb(0, 0, 130);
     width: 150px;
     height: 60px;
     border-radius: 11.3852px;

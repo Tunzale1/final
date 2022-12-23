@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "./currentWeather.css";
 import selsi from "../../images/WeatherIcon - 1-1.png";
-import wind from "../../images/wind-direction-icon.png"
-import hum from "../../images/hum.png";
 import { useSelector } from 'react-redux';
 import Loading from '../Loading/loading';
 
@@ -32,14 +30,14 @@ function CurrentWeather() {
 
             <div className='WindHumRainContainer'>
                 <div className='windspd'>
-                    <img src={wind} alt = "windIcon" className='windIcon'/>
+                <i className="fa-solid fa-wind"></i>
                     <p className='speedpar'> Külək {data.data.data ? (data.data.data.wind.speed) : null} km/h</p>
                 </div>
 
                 
 
                 <div className='humanity'>
-                    <img src = {hum} alt = "humanity" className='humIcon'/>
+                <i className="fa-solid fa-droplet"></i>
                     <p className='humanityDrg'>Rütübət {data.data.data ? (data.data.data.main.humidity) : null} %</p>
                 </div>
 
