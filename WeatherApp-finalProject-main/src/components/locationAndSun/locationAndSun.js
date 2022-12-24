@@ -48,6 +48,11 @@ function LocationAndSun() {
         <div className="Error">
             {loccc.error.length> 0 ? loccc.error : null}
         </div>
+        <figure className="flag">
+        <img
+          src={`https://raw.githubusercontent.com/lipis/flag-icons/a108610f6372e5ba4c8a8f80cab39f88c676a742/flags/4x3/${loccc.data.data?.sys.country.toLowerCase()}.svg`}
+        />
+      </figure>
         <div className="sunRiseSunSetContainer">
             <div className="sunriseContainer">
                 <p className="SunriseText">Gün çıxımı</p>
@@ -59,6 +64,7 @@ function LocationAndSun() {
                 <div className="clock">{loccc.data.data ? String(new Date(1000 * Number(loccc.data.data.sys.sunset))).split(" ")[4] : null }</div>
             </div>
         </div>
+       
     </div> 
     );
 }

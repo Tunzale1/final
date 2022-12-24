@@ -19,7 +19,7 @@
 .rightSide{
     margin-right: 10px;
     transition: 1s;
-    height: 375px;
+    height: 500px;
     margin-top: 10px;
     display: flex;
     border-radius: 40px;
@@ -30,6 +30,6 @@
 }
 .rightSide:hover{
 width: 50%;
-height: 450px;
+height: 550px;
 }
 

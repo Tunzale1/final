@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import "./currentWeather.css";
 import selsi from "../../images/WeatherIcon - 1-1.png";
 import { useSelector } from 'react-redux';
-import Loading from '../Loading/loading';
+
 
 
 function CurrentWeather() {
