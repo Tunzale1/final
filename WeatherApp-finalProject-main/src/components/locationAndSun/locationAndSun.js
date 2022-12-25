@@ -51,6 +51,7 @@ function LocationAndSun() {
         <figure className="flag">
         <img
           src={`https://raw.githubusercontent.com/lipis/flag-icons/a108610f6372e5ba4c8a8f80cab39f88c676a742/flags/4x3/${loccc.data.data?.sys.country.toLowerCase()}.svg`}
+          alt={loccc.data.data?.sys.country}
         />
       </figure>
         <div className="sunRiseSunSetContainer">

@@ -26,7 +26,7 @@ function Mainpage() {
         })
 
 
-    },[])
+    },[dispatch2])
 
 
 

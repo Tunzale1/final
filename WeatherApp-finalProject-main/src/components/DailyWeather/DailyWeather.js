@@ -1,6 +1,5 @@
 import React from 'react';
 import "./DailyWeather.css"
-import DailyIcon from "../../images/dailyIcon.png";
 import { useSelector } from 'react-redux';
 
 function DailyWeather() {
@@ -17,8 +16,6 @@ function DailyWeather() {
         <div className='dailycontainer'>
         {
             data.daily.data ? data.daily.data.list.map((item) =>
-
-                
 
                 <div className='dailyForecast' key={item.dt}>
                     <p className='hour'>{String(item.dt_txt).split(" ")[1].slice(0,5)}</p>                       
